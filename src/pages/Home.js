@@ -41,7 +41,7 @@ const Home = () => {
             <div className="formWrapper">
                 <img
                     className="homePageLogo"
-                    src="/logo.png"
+                    src="/logo.jpg"
                     alt="code-sync-logo"
                 />
                 <h4 className="mainLabel">Generate new room or paste invitation ROOM ID</h4>
@@ -78,10 +78,10 @@ const Home = () => {
                 </div>
             </div>
             <footer>
-                <h4>
+                {/* <h4>
                     Build by &nbsp;
                     <Link href="https://github.com/Mohitur669" target="_blank" rel="noopener noreferrer">Mohd Mohitur Rahaman</Link>
-                </h4>
+                </h4> */}
             </footer>
         </div>
     );
